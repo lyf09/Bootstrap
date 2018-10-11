@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <!-- 字符编码模式 -->
+    <meta charset="utf-8">
+    <!-- IE浏览器的适配 保证在IE中能够正常使用Bootstrap -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 视口 用于在不同的屏幕大小的设备中进行适配 -->
+    <!-- 视口宽度设置为设备宽度 -->
+    <!-- 网页初始缩放倍数设置为1倍 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>我自己的微金所</title>
+
+    <!-- Bootstrap 的默认样式CSS文件 -->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <!-- 在IE9版本以下的浏览器中，引入两个文件，对HTML5和响应式布局进行适配 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <section class="topbar hidden-xs hidden-sm bottom-border">
+    <!-- container file:///E:/Bootstrap/index.html#main_ad网页容器，宽度随着页面变化。保证内部网页内容不会超出页面宽度 -->
+      <div class="container">
+        <div class="col-md-2">
+        <a>
+          <i class="icon-mobilephone"></i>
+          手机微金所
+          <i class="glyphicon glyphicon-chevron-down"></i>
+          <img src="img/c_06.jpg" alt="">
+        </a>
+        </div>
+        <div class="col-md-5"><i class="icon-telephone"></i>4006-89-4006 (服务时间: 9:00-21:00)</div>
+        <div class="col-md-2"><a href="#">常见问题</a> <a href="#">财富登录</a></div>
+        <div class="col-md-3">
+          <button class="btn btn-danger btn-sm">免费注册</button>
+          &nbsp;&nbsp;&nbsp;
+          <a href="#" class="loginButton">登录</a>
+        </div>
+      </div>
+  </section>
+
+<section class="navigation">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- 头部区域，最小屏幕显示时，在头部所显示的按钮 -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed"   data-toggle="collapse" data-target="  #bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <i class="ico-logo"></i> 
+            <i class="ico-weijinsuo"></i>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">我要投资</a></li>
+            <li><a href="#">我要借款</a></li>
+            <li><a href="#">平台介绍</a></li>
+            <li><a href="#">新手专区</a></li>
+            <li><a href="#">最新动态</a></li>
+            <li><a href="#">微论坛</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right hidden-sm">
+            <li><a href="#">个人中心</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+</section>
+
+<section class="banner">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- 页码小圆点 -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active" data-image='img/slide_02_2000x410.jpg'></div>
+        <div class="item" data-image='img/slide_03_2000x410.jpg'></div>
+        <div class="item" data-image='img/slide_04_2000x410.jpg'></div>
+        <div class="item" data-image='img/slide_01_2000x410.jpg'></div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</section>
+
+
+
+<section class="tese hidden-xs">
+  <div class="container bottom-border">
+    <div class="col-md-4 col-sm-6">
+      <a href="#">
+        <h3>支付交易保障</h3>
+        <p>银联支付全程保障资金安全</p><i class="icon-uniE907"></i>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="#">
+          <a href="#">
+          <h3>支付交易保障</h3>
+          <p>银联支付全程保障资金安全</p><i class="icon-uniE907"></i>
+      </a>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="#">
+          <a href="#">
+          <h3>支付交易保障</h3>
+          <p>银联支付全程保障资金安全</p><i class="icon-uniE907"></i>
+      </a>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="#">
+          <a href="#">
+          <h3>支付交易保障</h3>
+          <p>银联支付全程保障资金安全</p><i class="icon-uniE907"></i>
+      </a>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="#">
+          <a href="#">
+          <h3>支付交易保障</h3>
+          <p>银联支付全程保障资金安全</p><i class="icon-uniE907"></i>
+      </a>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="#">
+          <a href="#">
+          <h3>支付交易保障</h3>
+          <p>银联支付全程保障资金安全</p><i class="icon-uniE907"></i>
+      </a>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- 
+  
+  tab栏切换效果
+  1. 按钮
+      data-toggle='tab'  bootstrap中，标记切换按钮用的。
+      href='#pane1'      切换的目标，和被切换面板的id相同
+
+  2. 切换面板
+      id 设置面板的id，和切换按钮的href一致
+      默认情况下隐藏所有的面板，在class=active时，对面板进行显示即可。
+      渐进渐出效果，添加类 fade， 默认显示的面板添加一个in
+
+  <a href="#pane3" data-toggle='tab'>asdfasdfsafs</a>
+ -->
+
+
+
+<section class="news">
+  <div class="container">
+    <div class="col-md-2 col-md-offset-2"><h2>今日头条</h2></div>
+    <div class="col-md-1 tabs">
+      <ul>
+        <li class="active col-md-12 col-sm-3 col-xs-3"><a href="#pane1" data-toggle='tab'><i class="icon-news1"></i></a></li>
+        <li class="col-md-12 col-sm-3 col-xs-3"><a href="#pane2" data-toggle='tab'><i class="icon-news2"></i></a></li>
+        <li class="col-md-12 col-sm-3 col-xs-3"><a href="#pane3" data-toggle='tab'><i class="icon-news3"></i></a></li>
+        <li class="col-md-12 col-sm-3 col-xs-3"><a href="#pane4" data-toggle='tab'><i class="icon-news4"></i></a></li>
+        <li class="dashed-line"></li>
+      </ul>
+    </div>
+    <div class="col-md-7 panes">
+      <div id="pane1" class="fade in active">
+        <ul>
+          <li>【微还款】一周还款公告2017年6月5日-2017年6月11日</li>
+          <li>【微公告】2017年6月8日微金所平台系统升级维护公告</li>
+          <li>【微还款】一周还款公告2017年5月31日-2017年6月4日</li>
+          <li>【微公告】2017年5月31日微金所平台系统升级维护公告</li>
+          <li>【微还款】一周还款公告2017年5月22日-2017年5月30日</li>
+          <li>【微公告】微金所平台端午节放假通知</li>
+          <li>【微公告】2017年5月31日微金所平台系统升级维护公告</li>
+          <li>【微公告】2017年5月31日微金所平台系统升级维护公告</li>
+        </ul>
+      </div>
+      <div id="pane2" class="fade">
+        <ul>
+          <li>0000000001</li>
+          <li>0000000002</li>
+          <li>0000000003</li>
+          <li>0000000004</li>
+          <li>0000000005</li>
+          <li>0000000006</li>
+          <li>0000000007</li>
+          <li>0000000008</li>
+        </ul>
+      </div>
+      <div id="pane3" class="fade">
+        <ul>
+          <li>0000000001</li>
+          <li>0000000002</li>
+          <li>0000000003</li>
+          <li>0000000004</li>
+          <li>0000000005</li>
+          <li>0000000006</li>
+          <li>0000000007</li>
+          <li>0000000008</li>
+        </ul>
+      </div>
+      <div id="pane4" class="fade">
+        <ul>
+          <li>0000000001</li>
+          <li>0000000002</li>
+          <li>0000000003</li>
+          <li>0000000004</li>
+          <li>0000000005</li>
+          <li>0000000006</li>
+          <li>0000000007</li>
+          <li>0000000008</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Bootstrap的JavaScript组件是基于jQuery实现的 -->
+    <!-- 导入jQuery文件 -->
+    <script src="lib/jQuery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap的JavaScript组件 -->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <!-- index页面自定义的js文件 -->
+    <script type="text/javascript" src='js/main.js'></script>
+  </body>
+</html>
